@@ -1,0 +1,101 @@
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url(../images/bg-repeat.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+
+}
+
+.explicacao{
+    color: #fff;
+}
+
+.titulo{
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.paragrafo{
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 13px;
+    max-width: 400px;
+}
+
+.form{
+    background-color: #fff;
+    width: 480px;
+    height: 528px;
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.input{
+    width: 420px;
+    height: 45px;
+    margin-top: 18px;
+    border-radius: 5px;
+}
+
+.margin-top{
+    margin-top: 30px;
+}
+
+.mensagem{
+    height: 150px;
+}
+
+input::placeholder{
+    font-weight: 700;
+    font-size: 15px;
+    
+}
+
+.mensagem::placeholder{
+    position: absolute;
+    top: 0;
+}
+
+.campos{
+    margin-left: -280px;
+    margin-top: 12px;
+}
+
+.enviar{
+    margin-top: 20px;
+    background-color: #3CCC87;
+    color: #fff;
+    width: 420px;
+    height: 55px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+/* ESTILO DE ITEM DE formulario CAMPO OBRIGATÓRIO */
+
+.input-error{
+    border-color: red;
+}
+
+.error{
+    margin-left: -330px;
+    font-size: 11px;
+    color: red;
+    display: none;
+}
+
+/* ESTILO DE ITEM DE formulario TUD0 CERTO */
+
+.input-success{
+    border-color: #00C22B;
+}

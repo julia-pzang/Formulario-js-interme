@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/responsivo.css">
+</head>
+<body>
+    <main>
+
+        <div class="explicacao">
+            <h1 class="titulo">FICOU COM DÚVIDA? <br> NOS MANDE UMA MENSAGEM!</h1>
+
+            <p class="paragrafo">caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.</p>
+        </div>
+
+        <!-- formulario -->
+
+        <form id="form" class="form">
+            <input 
+                name="nome"
+                type="text" 
+                class="input margin-top" 
+                id="nome"
+                placeholder="Nome completo *">
+    
+            <label for="nome" class="error">campo obrigátorio</label>
+
+
+            <input 
+                name="email"
+                type="text" 
+                class="input" 
+                id="email"
+                placeholder="Email *">
+
+            <label for="email" class="error">campo obrigátorio</label>
+
+
+            <input 
+                name="telefone"
+                type="text" 
+                class="input" 
+                id="telefone"
+                placeholder="Telefone *">
+
+            <label for="telefone" class="error">campo obrigátorio</label>
+
+
+            <input 
+                name="mensagem"
+                type="text" 
+                class="mensagem input" 
+                id="mensagem"
+                placeholder="Mensagem *"> 
+                
+
+            <label for="mensagem" class="error">campo obrigátorio</label>
+
+
+            <p class="campos">*campos obrigatórios</p>
+
+            <button type="submit" class="enviar">Enviar</button>
+        </form>
+    </main>
+
+    <script src="src/js/index.js"></script>
+</body>
+</html>
